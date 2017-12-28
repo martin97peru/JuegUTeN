@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include "libjueguten.h"
 using namespace std;
- //hola hhh
+ //hola :D
 int menuprincipal(){
 	int opcion;
 	system("CLS");
