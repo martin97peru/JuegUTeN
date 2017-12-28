@@ -1,0 +1,1085 @@
+﻿1 int main() {
+2 int a; b; c; aux; aux2;
+3 cout << introduzca tres numeros << endl;
+4 cin >> a; aux=a; cin >> b; if(b<a){a=b; b=aux;}
+5 cin >> c; aux2=c; if(c>a&&c<b){c=b; b=aux2;} if(c<a&&c<b){c=a; a=aux2;}
+6 cout << a,b,c;
+7 return 0;
+8
+Errores: 2-3-6-8
+1     int main() {
+2   	      int a, b;
+3	      cin<<a<<b;
+4	      cout<<SUMA(a);
+5	
+6	     return 0;
+7     }
+8
+9     int SUMA(int x, int z){
+10	      return x+y;
+11     }
+Errores: 3-4-9
+1      int main() {
+2	
+3	       int a,b,aux;
+4	       cin>>a>>b;
+5	       if(a>=b){
+6		       axu=a*b+2;
+7	       }else aux=(a+b)*4;
+8	
+9	       cout<<aux
+10	
+11	       return;
+12     }
+Errores: 6-9-11
+1      int main() {
+2   	int a,b,c,aux=0;
+3	      cin>>a>>b>>c;
+4	      if(c>0{
+5	         for(int i=;i<c;i++){
+6		     aux=aux+a*b;
+7	         }
+8		     cout<<aux,
+9	     }
+10	     return 0;
+11     }
+Errores: 4-5-8
+1 int main (){
+2	cout<<ingrese el valor del radio<<endl;
+3 	cout<<fixed;
+4 	float r
+5	cin>>r;
+6 	float resp=3.14159*(r*r);
+7	cout>>"A=">>setprecision(4)>>resp;
+8 	return 0;
+9
+Errores: 2-4-7-9
+1 int main (){
+2	int a,b,c;
+3	cout<<"Ingrese los dos valores a restar"<<endl
+4	cin<<a;
+5	cin>>b;
+6	c=a-b
+7	cout<<La resta de ambos es"<<c<<endl;
+8	return 0
+9}
+Errores: 4-6-7
+1 int main(){
+2 float a,b,c
+3 cout<<"Ingrese los números a promediar"<<endl;
+4 cin>>a;
+5 cin>>b
+6 c=(a+b)/2;
+7 cout<<fixed;
+8 cout<<El promedio es<<c<<endl;
+9 return;
+10 }
+Errores: 2-5-8-9
+1	int main(){
+2		int n, k;
+3		for (n=1; n<=10, n++){
+4			for (k=1; k<=n; k++){
+5				cin >> "*";}
+6			cout>>endl;
+7		}
+8		return 0;
+9	}
+Errores: 3-5-6
+1int main(int argc, char *argv[]) {
+2	int numero_actual ;
+3	int numero_leido=0 
+4	floa suma=0 ;
+5
+6	whily (numero_leido<5) {
+7		cout<< "ingrese un numero: " ;
+8		cin >> numero_actual ;
+9		suma = suma + numero_actual ;
+10		++numero_leido ;
+11			
+12	}
+13	cout << "la suma es: " << suma << endl ;
+14	cout << El promedio es: " << suma *5 ;
+15	return 0;
+16   }
+Errores: 3-4-6-14
+1 unsigned long Fibconacci(n) {	
+2	si (n==0) return 0;
+3	else {
+4		if (m!=1)
+5		return fibonacci(n-1)+//Fibonacci(n-2);
+6		//else  1;
+7	}}
+Errores: 1-2-5
+1 //int mani(int argc, char *argv[]) {
+2	int n; x, i;
+3	cin>>n;
+4	para [i==0; i<n; i+]{
+5		//cin>>x;
+6		EsPrimo(n);}
+7	return '0';}
+Errores: 1-2-4-5-7
+1 void esprimo(int c) {
+2	int j; int k=true;
+3	for (j==2; j<=(sqrt(float(c))); j++){
+4	//if (c%j==0) k = false;}
+5		if (k= true) cout<<c<<" eh primo"<<endl;
+6		e1se cout<<c<<" nao eh primo"<<<endl;"
+7	}
+Errores: 2-4
+1 long factorial(int N)
+2 { 
+3     if (N==0);
+4         return 1;
+5     long resul= N;
+6     while  (N >= 1)
+7     {
+8        resul *=+-N;
+9     }
+10    return resul=0;
+11 }
+Errores: 3-6-8-10
+1 string alternar( string p);{
+2     string invertido;
+3	  for(int i=0 ;i<p.size();i++){}
+4	      if(i%2){
+5		  invertido+=tolower(p[i]);
+6	      }
+7	      else{
+8		    invertido+=p[a];
+9	      }
+10	   }
+11     return string;
+12 }
+Errores: 1-3-8-11
+1  int cuadra(int x){
+2  return x*x;}
+3  int main() {
+4	i;
+5	for(i=1; i>20; i++)
+6	   cout<<cuadrado(i)<<" "<<endl;
+7  return 0;
+Errores: 4-6-7
+1 int main() {
+2	int x, par=0, impar, pos=0, neg=0;
+3	for (int i=1;i<6,i++) {
+4		cin>>x;
+5		if(x<0){pos++;
+6		}else{
+7			if(x<0){
+8				neg++;}}
+9		if(x/2){
+10			impar++;
+11		}else{
+12			par++;}}
+13	cout<<par<<" valor(es) par(es)"<<endl;
+14	cout<<impar<<" valor(es) impar(es)"<<endl;
+15	cout<<pos>>" valor(es) positivo(s)"<<endl;
+16	cout<<neg<<" valor(es) negativo(s)"<<endl;
+17	return 0;}
+Errores: 2-3-5-9-15
+1 int main() {
+2	char K;
+3	cout<<"Ingrese un numero entero: ";
+4	cin>>K;
+5	count<<endl;
+6	for (int i=0; i<K; i++){
+7		for (int j=0; i<K; j++)
+8			cout<<" *";
+9		cout<<endl;
+10	}
+11	return 0;}
+Errores: 2-5-7
+1 int main () {
+2 	char a, b, suma;
+3 	cout << "Ingrese el valor 1: " << endl;
+4 	cin >> a;
+5 	cout << "Ingrese el valor para 2: " << endl
+6 	cin >> b;
+7 	(a+b) = suma
+8 	cout << "La suma de ambos es: " << suma << "." << endl;
+9 	return;
+10 }
+Errores: 2-7
+1 int main () {
+2 	int a, b, resta
+3 	cout << "Ingrese el minuendo: " << endl;
+4 	cin >> a;
+5 	cout << "Ingrese el sustraendo: " << endl
+6 	cin >> b;
+7 	resta = (b - a);
+8 	cout << "La resta es: " << resta << "." << endl;
+9 	return;
+10 }
+Errores: 2-7
+1 int main () {
+2 	int a, b, div;
+3 	cout << "Ingrese el dividendi: " << endl;
+4 	cin >> a
+5 	cout << "Ingrese el divisor: " << endl
+6 	cin >> b
+7 	resta = (b/a);
+8 	cout << "La division es: " << div << "." << endl;
+9 	return;
+10 }
+Errores: 4-6-7
+1	int main(int argc, char *argv[]) {
+2	       int a,b;
+3	       cout << "Ingrese el valor de a:" << endl;
+4	       cin << a;
+5	       cout << "Ingrese el valor de b:" << endl;
+6	       cin >> b
+7	       if (a >= b){
+8	       		while (a >= b){
+9	            	a++;
+10					cout << a % b << endl;
+11	            }
+12	       }
+13	       else {
+14	              cout << "El cociente entre b y a es: ' << b/a <<endl;
+15	       }
+16	       return 0;
+17	}
+Errores: 4-6-8-14
+1	int main(){
+2	       int x, y, aux, suma = 0;
+3	       cin >> x;
+4	       cin >> y:
+5	       if(x > y){
+6	              aux = y;
+7	              y = x;
+8	              x = aux;
+9	       }
+10	       for(int i == x; i <= y; i++){
+11	              if(i%13 != 0){
+12	                     suma += i;
+13	       }
+14	       cout >> suma >> endl;
+15	       return 0;
+16	}
+Errores: 4-10-14-16
+1	int main() {
+2	       int a, b, c;
+3	       cin  << "Ingrese un numero del 1 al 4: ";
+4	       cin >> a;
+5	       cout << "Ingrese dos numeros: ";
+6	       cin >> b >> c;
+7	       switch (a){
+8	              case 1: cout << b+c << endl;
+9	              case 2: cout << b-c << endl;
+10	              break;
+11	              case 3; cout << b*c << endl;
+12	              break;
+13	              case 4: cout << (float)b/c << endl;
+14	              break;
+15	              default: cout << "Opcion no valida" << endl;
+16	       }
+17	       return 0:
+18	}
+Errores: 3-8-11-17
+1	int main() {
+2		int a,b;
+3		float promedio;
+4		cout<<'Ingrese el primero numero: ';
+5		cin>>a;
+6		cout<<"Ingrese el segundo numero: ";
+7		cin>b;
+8		promedio=(a+b)/2,0;
+9		cout<<"El promedio de los numeros es "<<prom<<"."<<endl;	
+10		return;
+11	}
+Errores: 4-7-8-9
+1	int main() {
+2		int a,b;
+3		cout<<"Ingrese el par de numeros positivos que quiere sumar"<<endl;
+4		cin>>a;
+5		cin>>b;
+6		if (a>0 & b>0){
+7			cout<<a+b<<endline;
+8		}
+9		else {
+10			cout<<"Inicie nuevamente el programa y escriba numeros positivos"<<endl;
+11		}
+12		return;
+13	}
+Errores: 6-7-12
+1	int main() {
+2		int a,b,cont,suma;
+3		cont=0;
+4		suma=0;
+5		cout<<"Ingrese la cantidad de numeros a sumar"<<;
+6		cin>>a;
+7		cout<<"Ingrese los numeros que quiere sumar"<<endl;
+8		while (cont<=a){
+9			cin>>b;
+10			suma=sum+b;
+11			cont++;
+12		}
+13		cout<<"El resultado es "<<suma<<"."<<end;
+14		return 0;
+15	}
+Errores: 5-8-10-13
+1   int main [] {
+2 		int a,b;
+3		cout<<"ingrese el primer valor"<<endl;
+4		cin>>a;
+5		cout<<"ingrese el segundo valor">>endl;
+6		cin>>b;
+7		if (a>b)
+8			cout<<a<<" es el mayor"<<endl
+9		else
+10			cout<<b<<" es el mayor"<<endl;
+11		return 0;
+12  }
+Errores: 1-5-8
+1   int main () {
+2		int pres,total
+3		float porc;
+4		cout<<"ingrese cantidad de personas invitadas" << endl;
+5		cin<<total;
+6		cout<<"ingrese cantidad de personas presentes << endl;
+7		cin>>pres;
+8		porc=(pres*100.0)/total;
+9		cout<<"el porcentaje de personas presentes es: "<<por<<"%"<<endl;
+10		return 0;
+11  {
+Errores: 2-5-6-9
+1   int main () 
+2		int a,b,c;
+3		cout<<"ingrese el primer valor"<<endl;
+4		cin>>a;
+5		cou<<"ingrese el segundo valor"<<endl;
+6		cin>>b;
+7		c=0
+8		while (a>b){
+9			a--;
+10			c++}
+11		cout<<"el primer numero se redujo "<<c<<" veces"<<endl;
+12		return 0;
+13  }
+Errores: 1-5-7-10
+1 #include <iostream>
+2 using namespace std;
+3 int main( ) {
+4 	int k,
+5 	cin<<k;
+6 	for (int j=0; j<k; j++) {
+7 		for (int i=0; i<k; i+) {
+8 			cout<<"*";}
+9 		cout<<endl;}	
+10 	return 0;
+11 }
+Errores: 4-5-7
+1 #include <iostream>
+2 using namespace std;
+3 int main( ) {
+4 	int a b, X;
+5 	cout<<"Ingrese a";
+6 	cin >>a;
+7 	cout<<"Ingrese b";
+8 	cin>>b;
+9 	X == a+b;
+10 	cout << "El producto de a*b es: " << X << endl;
+11 	return 0;
+12 }
+Errores: 4
+1 #include <iostream>
+2 using namespace std;
+3 int main( ) {
+4 	int n, x, y, sum=0, d;
+5 	cin>n;
+6 	for (int i=0 i<n; i++) {
+7 		cin>>x>>y;
+8 		d=y-1;
+9 		if (d%2==0 {
+10 			d--}
+11 		for (int j=d; j<x; j-=2) {
+12 			sum+=j;}
+13 		cout<<sum<<endl;
+14 		sum=0;}
+15 	return 0;
+16 }
+Errores: 5-6-9-10
+1 #include <iostream>
+2 using namespace std;
+3 int main(int argc, char *argv[]) {
+4 	nombre();
+5 	return 0;
+6 }
+7 void nombre(){
+8 	cout>>Robert DeNiro>>endl;
+9 }
+Errores: 8
+1 #include <iostream>
+2 using namespace std;
+3 int main(int argc, char *argv[]) {
+4 	int suma=0,a,b;
+5 	cin>>a;b;
+6 	suma=a+b;
+7 	cout>>"la suma es:" suma>>endl;
+8 	cout>>"Gracias por utilizar nuestro programa">>endl;
+9 	return 0;
+10 }
+Errores: 7-9
+1 int main() {
+2 	int numero;
+3 	cout<<"este programa cuenta de 1 en 1, hasta el numero que ingreses y luego hace la cuenta regresiva del mismo"<<endl;
+4 	cout<<"ingresa un numero entero positivo: "
+5 	cin>>numero;
+6 	for (int i=0 i<=numero; i++)
+7 		cout<<i<<endl;
+8 	for (int i=numero; i>=0; i--)
+9 		cout<<i 
+10 	return 0;
+11 }
+Errores: 4-6-9
+1 int main() {
+2 	int a,b,c;
+3 	cout<<"Valor de a: <<endl;
+4 	cin>>a;
+5 	cout<<"Valor de b: "<endl;
+6 	cin>>b;
+7 	cout<<"Valor de c: "<<endl;
+8 	cin>c;
+9 	cout>>"El resultado de la suma de a+b+c es: "<<a+b+c<<endl;
+10 	return 0;
+11 }
+Errores: 3-5-8-9
+1 #include <iostream>
+2 using namespace std;
+3 int main(int argc, char *argv[]) {
+4 	char c;
+5 	cout<<>"Escribe una letra: <<endl
+6 	cin>>>>c;
+7 	switch (c {
+8 		case 'a':
+9 		case 'e':
+10 		case 'i':
+11 		case 'o':
+12 		case 'u':
+13 		cout<<"Es una vocal."<<endl; break;
+14 		default: cout<<"Es una consonante."<<endl
+15 	}
+16 	retun 0;
+17 }
+Errores: 5-6-7-16
+1	int main(int argc, char *argv[])
+2	int a,b,c,k;
+3	cout<<ingrese sus valores a sumar<<endl;
+4	cin>>a>b;
+5	a+b=c;
+6	cout<<"Su resultado es:"<<c<<endl;
+7	k=-c
+8	cout<<"Y el número negativo es este es">>k<<endl;
+9	return 0;
+10 } 
+Errores: 1-3-4-8
+1	main(int argc, char *argv[]) {
+2	int bari,de,c,res;
+3	cout<<"Ingrese un número para sacar el cuadrado del mismo y si es par o impar"<<endl;
+4	cin<<bari;
+5	de=bari+bari;
+6	c=de;
+7	res=c%2;
+8	if (res!=0){
+9		cout<"El numero es impar, y el cuadrado es:"<<de<<endl;
+10	}
+11	else{
+12		cout<<"El numero es par, y el cuadrado es:"<<de<<endl;
+13	
+14	return ;
+15	}
+Errores: 4-9-13-14
+1	int main(int argc, char *argv[]) {
+2	int a
+3	cout<<"Ingrese su edad para saber si es mayor o menor de edad.(18 años o igual para ser mayor)"<<endl;
+4	cin>>>a;
+5	if (a>18){
+6		cout<<"Ud es mayor"<<endl;
+7	}
+8	else {
+9		cout<<Ud es menor"<<endl;
+10	}
+11	return 0;
+12	}
+Errores: 2-4-9
+1	int main() {
+2		int x,y;
+3		cout << "Ingrese dos numeros enteros: " << endl;
+4		cin << x << y;
+5		while(x!=0&&y!=0){
+6			if ((x%2)==(y%2))
+7				cout >> "Son congruentes modulo 2" >> endl;
+8			else
+9				cout << "No son congruentes modulo 2" << endl
+10			cin >> x
+11		}
+12		return 0;
+13	}
+Errores: 4-7-9-10
+1	int main() {
+2	 	int numero;
+3		do{
+4			cout << "Ingrese un numero de 3 cifras: ";
+5			cin >> numero;
+6		} while(numero<100 || numero>999);
+7		cout <<Unidad es:<< numero%10 << endl;
+8		cout << "Decena es: " << numero/10%10 << endl;
+9		cout << "Centena es: " << numero/100%10 << endl;
+10		if((numero%10)=(numero/100%10)){
+11			cout << "El numero ingresado es palindromo." << endl;
+12		}
+13		return 0
+14	 }
+Errores: 7-10-13
+1 int main() {
+2	float a,b,
+3	float promedio;
+4	cout >> "Ingrese nota primer parcial: ";
+5	cin << a;
+6	cout >> "Ingrese nota segundo parcial: ";
+7	cin << b;
+8	promedio = (a+b)/2;
+9	cout >> "El promedio de los parciales es: " >> promedio >> endl;
+10	return 0;
+11   }
+Errores: 2-4-5-6-7-9
+1	int main()
+2	{
+3	int a,b=0,c,t=0;
+4	cin<<c;
+5	while (c!=1000)
+6	{
+7		a=c/100;
+8		while (t==a&&c!=1000)
+9		{
+10			++b;
+11			cin>>c;
+12			a=c/100;
+13		}
+14		cout<<"Desde "<<t*100<<'-'<<99+t*100<<" hay "<<b<<" número(s)"<<endl
+15		++t;
+16		b==0;
+17	}
+18	return 0;
+19	}
+Errores: 4-14-16
+1 int main() {
+2	int a, b, c = 1;
+3	int i	
+4	cout << "Base: ";
+5	cin >> a;
+6	cout << "Exponete :";
+7	cin >> b;
+8	for(i = 0; i < b; i+++){
+9	    c = c*a;
+10	}	
+11	cout << "Resultado:  << c;
+12	return 0
+13  }
+Errores: 3-8-11-12
+1  int main() {
+2      int a, b;
+3      cout >> "Ingrese 2 numeros" >> endl;
+4      cin >> a >> b,
+5      for (int i=a; i<b; i++){
+6           if (i%2==0)
+7           cout << "Los numeros pares entre son: << endl;
+8           cout << i << endl;
+9	}
+10      }
+11	return 0;
+12    }
+Errores: 3-4-6-7
+1 int main() {
+2   int a b;
+3   cin >> a >> b;
+4   if (a>0 && b>0){
+5	    cout << "1" << endl
+6	}
+7   else {
+8	    cout << "0" endl;
+9	}
+10	return 0;
+11  }
+Errores: 2-5-8
+1  int main() {
+2	int a, b, total=0;
+3	cout << "Ingrese el valor de a y b" << endl
+4	cin >> a >> b;	
+5	a+b=total;       	
+6	cout << el total es <<total << endl;
+7	return 0;
+8            }
+Errores: 3-5-6
+1  int main(int argc, char *argv[]) {
+2  	double a,b,c,d;
+3	cout<<"Cantidad de unidades: ";
+4	cin>>a
+5	cout<<"Precio de costo (de c/u): ";
+6	cin>>b;
+7	cout<<"porcentaje a ganarle: ;
+8	cin>>c;
+9	cout<<"Costo:<<a*c<<endl;
+10	d=b+(c*b/100);
+11	d=d*a;
+12	cout<<"Ganacia bruta: "<<d<<endl;
+13	cout<<"Ganacia total: "<<d-(a*b)<<endl;
+14	return 0
+15  }
+Errores: 4-7-9-14
+1  int main(int argc, char *argv[]) {
+2	int a,b,c
+3	cin>>a>>b;
+4	if(a>b)
+5		c=a;
+6	elze{
+7		c=b;
+8		b=a;
+9	}
+10	if(c%2==0)
+11		c++;
+12	cout<<"los impares entre estos numeros son: ";
+13	while(b<c-2){
+14		c=c-2;
+15		cout<<c<" ";
+16	}
+17	return 0;
+18  
+Errores: 2-6-15-18
+1  int main(int argc, char *argv[]) {
+2	int a;b;
+3	cout<<"ingrese 2 numeros"<<endl;
+4	cin>>a>>b;
+5	if(a==b) then
+6		cout<<"los numeros son iguales";
+7	else
+8		if(a>b)then
+9			cout<<"el primero es el mas chico";
+10		else
+11			cout<<"el segundo es el mas chico";
+12	}
+13	return 0;
+14  }
+Errores: 2-5-8-12
+1	int main() {
+2		int Num;
+3		cout < " Ingrese un numero: ";
+4		cin >> Num;
+5		if  Num%2==0 ){
+6		cout << endl << " El numero es par ";
+7		}
+8		else {
+9		cout << endl << " El numero es impar ;
+10		}
+11	return 0;
+12	}
+Errores: 3-5-9
+1	int main() {
+2		float n1, n2, n3;
+3		cout << " Ingrese tres numeros: " << endl;
+4		cin >> n1 >> n2 >> n3
+5		cout << " El mayor es:  " ;
+6		if ((n1>n2) && (n1>n3)) {
+7			cou << n1;
+8		} 
+9		if ((n2>n1) && (n2>n3)) {
+10			cout << n2;
+11		} 
+12		if ((n3>n1) & (n3>n2) {
+13			cout << n3;
+14		}
+15	return 0;
+16	}
+Errores: 4-7-12
+1	int main() {
+2		int c;
+3		float a,b;
+4		cin >> a >> b;
+5		cout << " Elegir opcion: Multiplicacion=1, Division=2 " << endl;
+6		cin >> c
+7		if( c>=1 && c<=2 ){
+8			if( c==1 ){
+9			cout << endl < a*b;
+10			}
+11			if( c==2 ){
+12		    	cout << endl << a/b;
+13			}
+14		} else cout << endl <<’ Opcion ingresada incorrecta " ;
+15	return 0
+16	}
+Errores: 6-9-14-15
+1 int main() {
+2	int a,b,c;
+3	cout<<"Ingrese el valor de b: " << endl;
+4	cin<<b;
+5	cout<<"Ingrese el valor de c: " << "\n";
+6	cin<<c;
+7	a==3;
+8	cout<< "La suma de a,b y c es: " << a+b+c;
+9	return 0;
+10 )
+Errores: 4-6-7-10
+1 int main() {
+2	double R;
+3	double A;
+4	cout>>"Ingrese el radio: ";
+5	cin >> R;
+6	A = 3.14159*R*R;
+7	cout.setf(ios:fixed);
+8	cout.setf(ios:showpoint);
+9	cout.precision (4);
+10	cout<< "El area del circulo es de: ";
+11	cout << "A=" << A << endI;
+12	return 0;	
+13 }
+Errores: 4-7-8-11
+1  int main() {
+2	int a;b;
+3	cout<<<"Escribe dos numeros"<<endl;
+4	cin>>a>>b;
+5	cout<<"La suma entre los dos numeros es: "<<a+b<<endl;
+6	cout<<""La resta entre los numeros es: "<<a-b<<endl;
+7	cout<<"La multiplicacion entre los numeros es: "<<a*b<<endl;
+8	if (b<==0)
+9		cout<<"Las divisiones por cero no son posibles!"<<endl;
+10	if
+11     	cout<<"La division entre los numeros es: "<<a/b;
+12	return 0;
+13 }
+Errores: 2-3-6-8-10
+1  int main() {
+2	float x;
+3	cout<<"Ingrese un numero y te dire si es par o impar"<<endl;
+4	cin>>x;
+5	if(x/2=0)
+6		cout<<"Su numero es par";<<endl;
+7	else
+8		cout<<"Su numero es impar"<<endl;
+9	return 0;
+10 }
+Errores: 5-6
+1  int main() {
+2	int num, intentos;
+3	cout<<"Ingrese un numero positivo"<<endl;
+4	cin>>num;
+5	intentos==1;
+6	while(num<=0 && intentos=3){
+7	cout<<"Error!: Ingrese un numero positivo"<<endl;
+8	cin>>num;
+9	intentos+++;
+10	]
+11	if (intentos>=3)
+12		cout<<"Error, mas de tres intentos, reinicie para volver a empezar.";
+13	return 0;
+14 }
+Errores: 5-6-9-10
+1   int main() 
+2   	int a,b,c;
+3	   cout<<"Ingrese tres numeros enteros, para que se produzca la suma: " <<endl;
+4	   cin>>a;
+5	   cin>>b;
+6          cin>c;
+7	   if (a>b && b>=c){
+8	       	cont=a+b+c;
+9	       	cout<<"Resultado: "<<cont <<endl; }
+10	   else cout<<"Error"<<endl;	
+11  return 0
+12  }
+Errores: 1-6-8-11
+1  int main() { //este programa cuenta cantidad de numeros mayores a cero; 
+2	int a, cont; 
+3	cont=0
+4	do{
+5		cin<<a;
+6		if (a>0) {
+7			cont++;
+8		}
+9		else cont--;
+10	}while (a=0)	
+11  return 0;
+12  }
+Errores: 3-9-10
+1  int potencia(int base, int exp){
+2     int resultado=0;
+3     for (int i=0; i<exp; i++) {
+4        resultado*=base;
+5         }
+6  return resultado
+7  }
+Errores: 2-6
+1  int main(){
+2	int a, b		
+3	cout<<"Ingrese primer numero"<<endl;
+4	cin>>a.
+5	cout<<"Ingrese segundo numero"<<endl;
+6	cin>>b;
+7	cout<<"Suma: "<<a+b<<endl;
+8	cout<<"Resta: "<<a/b<<endl;
+9	cout>>"Multiplicacion: "<<a*b<<endl;
+10	cout<<"Divicion: "<<a%b<<endl;
+11  	return 0;
+12  }
+Errores: 2-4-8-9-10
+1 #include <iostream>
+2 using namespace std;
+3 void linea(int num, char caract);
+4 int main() 
+5	char c;
+6	int n;
+7	cout<<"Ingrese un numero: ;"
+8	cin>>n;
+9	cout<<"Ingrese un caracter: ";
+10	cin>>c;
+11	linea(n,c);
+12	return 0
+13 }
+14 void linea(int caract, char num) {
+15	int cant;
+16	cant=0;
+17  for(cant=0;cant<num;cant++)
+18		cout>>caract;
+19 }
+Errores: 4-7-12-14-18
+1  int main() {
+2  	int aux, i=0
+3  	while (i<aux) {
+4		if (aux%2=0){
+5			i*=2;
+6			aux/=2;
+7		}
+8		else{
+9			i+=(aux-10)
+10		}
+11	}
+12	cout << "aux: " << aux << endl;
+13	cout << "i: " << i << endl;
+14	return 0;
+15  }
+Errores: 2-4-9
+1  int main {} (
+2       int a,b;
+3       cin << a,b;
+4       if (a>b) {
+5              cout<< "El numero" << a << "es el mayor";
+6              cout<< "La suma de los dos numeros ingresados es"<< a+b;
+7       }
+8       else {
+9              cout<< "Él numero" << b << "es el mayor";
+10             cout<< "La suma de los dos numeros ingresados es"<< a+b;
+11      }
+12      if (a mod 2 = 0 && b mod 2 = 0) {
+13             cout<< "Ambos numeros ingresados son pares"
+14      return 0;
+15  }
+Errores: 1-3-12-13
+1  int main() {
+2       int a, int mayor, int cifras
+3       cin >> a;
+4       a mod 10 = mayor;
+5       while (a>10) {
+6              a/=10;
+7              cifras+;
+8              if (n mod 10 > mayor){
+9                       mayor == n mod 10;
+10      }
+11      return 0;
+12  }
+Errores: 2-4-7-8-9
+1  include <iostream>
+2  #include <iomanip>
+3  using namespace std
+4  
+5  int main(int argc, char *argv[]) {
+6	 radio;
+7	double pi=3.14159,volumen;
+8	cin> radio;
+9	volumen = (4/3.0)*pi*(radio*radio*radio);
+10	cout<<fixed<<setprecision (3) <<"VOLUME = " <<volumen<<endl;
+11
+12	return 0;
+13	
+Errores: 1-3-6-7-8-13
+1  #include <iostream>
+2  using mamespace std;
+3  
+4  int main(int argc, char *argv[]) {
+5	int a, b;
+6	cout << "Ingresa un valor entero" << endl,
+7	cin > a;
+8	cin >> b,
+9	if (a>b)
+10	{
+11		cout <<"El mayor es " < a << endl;
+12	}
+13	if (b<a)
+14	{
+15		cout<"El mayor es " << b << endl;
+16	}
+17  return 0,
+18 }
+ERRORES: 6-7-8-11-17
+1 int main() {
+2	char letra;
+3	cout<<"Ingrese una letra: ";
+4	cin>>letra;
+5		if(letra >65 & letra <90)
+6		{
+7			cout<<endl<<"La letra es mayuscula.";
+8		}else
+9		   {
+10			if(letra > 97 && letra < 122)
+11			{
+12				cout<endl<<"La letra es minuscula.";
+13			}
+14			else
+15			   {
+16				cout<<El caracter ingresado no es una letra.";
+17			}
+18		}
+19	return 0;
+20           }
+Errores: 5-12-16
+1	int main() {
+2		int c;
+3		float a,b;
+4		cin >> a >> b;
+5		cout << " Elegir opcion: Multiplicacion=1, Division=2 " << endl;
+6		cin >> c
+7		if( c>=1 && c<=2 ){
+8			if( c==1 ){
+9			cout << endl < a*b;
+10			}
+11			if( c==2 ){
+12		    	cout << endl << a/b;
+13			}
+14		} else cout << endl <<’ Opcion ingresada incorrecta " ;
+15	return 0
+16	}
+Errores: 6-9-14-15
+1  #include <iostream>
+2  #include <iomanip>
+3  using namespace std;
+4  int main()
+5  {
+6	double Radio, Area;
+7	
+8	cout<<"Inserte Radio del circulo:"<<endl;
+9	cin<< Radio;
+10	
+11	Area= 3.14159 *Radio + Radio;
+12	
+13	
+14	cout >> "A=" << Area << endl
+15	
+16	0;
+17  }
+Errores: 9-11-14-16
+1  #include <iostream>
+2  using namespace std;
+3  /programa para conocer la cifra de la decena
+4  
+5  int main(){
+6  void a,b;
+7  cout << "ingrese un numero de 4 cifras" << ednl;
+8  cin >> a;
+9  b = a%100;
+10 b = b/0;
+11 cout<< "La decena es el numero " << b;
+12 retorn 0;
+13 }
+Errores: 3-6-7-10-12
+1  include <iostream>
+2  #include <iomanip>
+3  using namespace std
+4  
+5  int main(int argc, char *argv[]) {
+6	 radio;
+7	double pi=3.14159,volumen;
+8	cin> radio;
+9	volumen = (4/3.0)*pi*(radio*radio*radio);
+10	cout<<fixed<<setprecision (3) <<"VOLUME = " <<volumen<<endl;
+11
+12	return 0;
+13	
+Errores: 1-3-6-7-8-13
+1  #include <iostream>
+2
+3  using namespace std;
+4
+5  int main(
+6  {
+7	int numero_1, numero_2;
+8	
+9	cout << "Ingrese dos numeros ahora:" << endl
+10	
+11	cin >> numero_1;
+12	cin > numero_2;
+13	
+14	cout << "Los numeros son: " << numero_1 << " y " << numero_2 << " . Muchas gracias! << endl;
+15	
+16	return 0;
+17  }
+Errores: 5-9-12-14
+1  #include <iostream>
+2  using mamespace std;
+3  
+4  int main(int argc, char *argv[]) {
+5	int a, b;
+6	cout << "Ingresa un valor entero" << endl,
+7	cin > a;
+8	cin >> b,
+9	if (a>b)
+10	{
+11		cout <<"El mayor es " < a << endl;
+12	}
+13	if (b<a)
+14	{
+15		cout<"El mayor es " << b << endl;
+16	}
+17  return 0,
+18 }
+ERRORES: 6-7-8-11-17
+1 int main() {
+2 	int N, a, c=0, d=0;
+3 	cin>>N;
+4 	do{
+5		cin<<a;
+6		if(a>=10 && a<=20){
+7		c=c+1;
+8 	}
+9	else{	
+10	       d=d+1
+11	}
+12	N-;
+13 	} while(N>0);
+14 	cout<<c<<in<<endl;
+15 	cout<<d<<" out"<<endl;
+16 	return 0;
+17 }
+Errores: 5-10-12-14
+1 int main()
+2 	int A,B,SUMA;
+3 	cin>>C;
+4 	cin>>B;
+5 	SUMA=A+B;
+6 	cout<<"SUMA = "<<SOMA<<endl;
+7 	return 0;
+8 }
+Errores: 1-3-6
+1 int main(int argc, char *argv[]) {
+2 	int x;
+3 	cout < "Ingrese la cantidad de personas para el calculo de ingredientes: ";
+4 	cin >> x;
+5 	float gmanz = (675/(float)4)*x;
+6 	float gmant = (75/(float)4)*x;
+7 	float gazuc = (150/(float)4)*x
+8 	float gpan = (100/(float)4)*x;
+9 	float mleche = (150/(float)4)*x;
+10 	cout << setw (16) << "Manzanas: " << setw (6) << gmanz << " grs." << endl;
+11 	cout << setw (16) << "Mantequilla: " << setw (7) << gmant << " grs." << endl;
+12 	cout << setw (16) << "Azucar: " << setw (7) << gazuc << " grs." << endl;
+13 	cout << setw (16) << "Migas de pan: " << setw (7) << gpan << " grs." << endl;
+14 	cot << setw (16) << "Leche: " << setw (7) << mleche << ml << endl;
+15 	return 0;
+16 }
+Errores: 3-7-4
