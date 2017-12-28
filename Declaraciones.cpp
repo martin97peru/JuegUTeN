@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Declaraciones.h"
 using namespace std;
-
+//gg izi
 void calcularl1(int nequipo,int juego,equipo principal[],int mayor){
 	int puntaje;
 	if(juego==0){
